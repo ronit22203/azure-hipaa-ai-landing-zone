@@ -1,0 +1,25 @@
+# Local .terraform directories & provider binaries
+**/.terraform/*
+
+# Terraform state files (NEVER commit state to Git)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude sensitive local override files, but KEEP tracked env.tfvars
+*.tfvars.local
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plan binaries
+*.tfplan
+
+# macOS / Editor artifacts
+.DS_Store
+.vscode/
